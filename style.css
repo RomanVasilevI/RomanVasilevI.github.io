@@ -1,3 +1,10 @@
+/* Set a gradient background */
 body {
-    background-color:  #7f7e7e ; /* Choose color */
+    background: linear-gradient(to bottom, #3498db, #e74c3c); /* Replace these colors with your preferred gradient */
+    /* You can adjust the gradient direction and colors as needed */
+}
+
+/* Set the text color to white */
+h1, p {
+    color: white;
 }
