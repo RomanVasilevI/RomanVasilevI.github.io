@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/RomanVasilevI/RomanVasilevI.github.io/blob/main/background.jpeg?raw=true'); /* Replacing with the actual path to your image file */
+    background-image: url('https://github.com/RomanVasilevI/RomanVasilevI.github.io/blob/fb685d4f3daf0a126a927766e0dbb0c0bd671dda/background.jpeg'); /* Replacing with the actual path to your image file */
     background-size: cover;
     /* You can add other background properties if needed, such as background-repeat or background-position */
 }
