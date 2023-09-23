@@ -1,14 +1,18 @@
-/* Set the background image to cover the entire page */
+/* Set the background image with the raw content URL */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/RomanVasilevI/RomanVasilevI.github.io/blob/fb685d4f3daf0a126a927766e0dbb0c0bd671dda/background.jpeg'); /* Replacing with the actual path to your image file */
+    background-image: url('https://github.com/RomanVasilevI/RomanVasilevI.github.io/blob/fb685d4f3daf0a126a927766e0dbb0c0bd671dda/background.jpeg'); /* Use the raw content URL */
     background-size: cover;
-    /* You can add other background properties if needed, such as background-repeat or background-position */
+    /* You can add other background properties as needed */
 }
 
-/* Set the text color to white */
+/* Style the text with a black box */
 h1, p {
     color: white;
+    background-color: black; /* Set the background color of the box to black */
+    padding: 10px; /* Add padding to create space inside the box */
+    border: 2px solid white; /* Add a white border around the box */
+    display: inline-block; /* Make the box inline to fit the content width */
 }
