@@ -1,6 +1,6 @@
 /* Set a gradient background */
 body {
-    background: linear-gradient(to bottom, #3498db, #e74c3c); /* Replace these colors with your preferred gradient */
+    background: linear-gradient(to bottom, #b8b8b8, #404040); /* Replace these colors with your preferred gradient */
     /* You can adjust the gradient direction and colors as needed */
 }
 
