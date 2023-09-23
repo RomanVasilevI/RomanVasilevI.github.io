@@ -33,6 +33,6 @@ html, body {
 .image-box img {
     max-width: 50%; /* Set the maximum width to 100% of its container (same size as the box) */
     max-height: 50%; /* Set the maximum height to 100% of its container */
-    width: 50%; /* Ensure the width adjusts to maintain aspect ratio */
+    width: auto; /* Ensure the width adjusts to maintain aspect ratio */
     height: 50%; /* Ensure the height adjusts to maintain aspect ratio */
 }
