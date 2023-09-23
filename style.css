@@ -3,13 +3,13 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/RomanVasilevI/RomanVasilevI.github.io/blob/fb685d4f3daf0a126a927766e0dbb0c0bd671dda/background.jpeg'); /* Use the raw content URL */
+    background-image: url('https://github.com/RomanVasilevI/RomanVasilevI.github.io/raw/main/background.jpeg'); /* Use the raw content URL */
     background-size: cover;
     /* You can add other background properties as needed */
 }
 
-/* Style the text with a black box */
-h1, p {
+/* Style the text container with a black box */
+.content-container {
     color: white;
     background-color: black; /* Set the background color of the box to black */
     padding: 10px; /* Add padding to create space inside the box */
