@@ -1,6 +1,9 @@
-/* Set a gradient background */
-body {
-    background: linear-gradient(to bottom, #b8b8b8, #404040); /* Replace these colors with your preferred gradient */
+/* Set a gradient background for both <html> and <body> elements */
+html, body {
+    height: 100%; /* Ensure both elements cover the full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background: linear-gradient(to bottom, ##b8b8b8, #404040); /* Replace these colors with your preferred gradient */
     /* You can adjust the gradient direction and colors as needed */
 }
 
