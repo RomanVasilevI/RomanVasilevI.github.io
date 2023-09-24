@@ -8,31 +8,38 @@ html, body {
     /* You can add other background properties as needed */
 }
 
-/* Style the text container with a black box on the left */
+/* Style the container for text and image */
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack the text box and image box vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100%;
+    padding: 10px; /* Add padding to create space inside the container */
+}
+
+/* Style the text container with a black box */
 .text-box {
     color: white;
     background-color: black; /* Set the background color of the text box to black */
     padding: 10px; /* Add padding to create space inside the text box */
     border: 2px solid white; /* Add a white border around the text box */
-    float: left; /* Float the text box to the left */
-    width: 50%; /* Set the width of the text box to 50% of the container */
     box-sizing: border-box; /* Include padding and border in the box sizing */
+    width: auto; /* Let the text box adjust its width to the content */
+    text-align: center; /* Center-align text within the box */
 }
 
-/* Style the image container with a black box on the right */
+/* Style the image container */
 .image-box {
-    background-color: black; /* Set the background color of the image box to black */
-    padding: 10px; /* Add padding to create space inside the image box */
-    border: 2px solid white; /* Add a white border around the image box */
-    float: right; /* Float the image box to the right */
-    width: 50%; /* Set the width of the image box to 50% of the container */
-    box-sizing: border-box; /* Include padding and border in the box sizing */
+    width: 100%; /* Set the width of the image box to 100% of the container */
+    margin-top: 10px; /* Add margin to separate the image box from the text box */
+    display: flex; /* Use flex layout for centering */
+    justify-content: center; /* Center content horizontally within the image-box */
+    align-items: center; /* Center content vertically within the image-box */
 }
 
 /* Style the image within the image box */
 .image-box img {
-    max-width: 50%; /* Set the maximum width to 100% of its container (same size as the box) */
-    max-height: 50%; /* Set the maximum height to 100% of its container */
-    width: auto; /* Ensure the width adjusts to maintain aspect ratio */
-    height: 50%; /* Ensure the height adjusts to maintain aspect ratio */
+    max-width: 20%; /* Set the maximum width to 20% of its container (adjust as needed) */
+    height: auto; /* Maintain the aspect ratio of the image */
 }
